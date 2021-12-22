@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainlayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the case you found."
+        android:layout_alignStart="@id/relativeLayout5"
+        android:gravity="center_vertical">
+
+    </TextView>
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgView_emailIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_adjust_24"
+                app:tint="@color/white" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/selectStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imgView_emailIcon"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgView_emailIcon"
+                android:background="@color/editTextBG"
+                android:padding="5dp"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your notes."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/relativeLayout5"/>
+
+
+    <LinearLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg2"
+            android:padding="8dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:src="@drawable/locationicon"
+            app:tint="@color/white" />
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Set"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg"
+            android:padding="5dp"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

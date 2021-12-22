@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_request">
+
+    <fragment
+        android:id="@+id/navigation_request"
+        android:label="Request"
+        android:name="com.ship99_official.ship99_driver.Ui.IncomingOrders"
+        tools:layout="@layout/activity_incoming_orders" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:label="History"
+        android:name="com.ship99_official.ship99_driver.Ui.HistoryOrders"
+        tools:layout="@layout/activity_history_orders" />
+
+    <fragment
+        android:id="@+id/navigation_track"
+        android:label="Track"
+        android:name="com.ship99_official.ship99_driver.Ui.ReadyOrders"
+        tools:layout="@layout/fragment_ready" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:label="Profile"
+        android:name="com.ship99_official.ship99_driver.Ui.ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>

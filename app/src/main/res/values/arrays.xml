@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pickup_address_array">
+        <item>6 Octobar</item>
+        <item>Faisal</item>
+        <item>Haram</item>
+        <item>Al maady</item>
+        <item>Nasr City</item>
+    </string-array>
+
+    <string-array name="client_address_array">
+        <item>doky</item>
+        <item>Faisal</item>
+        <item>New Egypt</item>
+        <item>Al maady</item>
+        <item>Nasr City</item>
+    </string-array>
+
+    <string-array name="type_of_product">
+        <item>Liquid</item>
+        <item>Solid</item>
+        <item>Paper</item>
+        <item>Clothes</item>
+        <item>Electronics</item>
+    </string-array>
+
+    <string-array name="chooseStatusOfCustomer">
+        <item>إتفاق علي ميعاد واغلاق الهاتف</item>
+        <item>الهاتف غير متاح/مغلق</item>
+        <item>منتج غير مطابق للصور</item>
+        <item>العميل بيتهرب</item>
+        <item>المبلغ المطلوب غير متوفر</item>
+    </string-array>
+
+</resources>
