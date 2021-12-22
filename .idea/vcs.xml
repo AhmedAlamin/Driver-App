@@ -2,13 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../../DevabitsTaskes/TaskOne" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../MyApplication" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../WinSetupFromUSB-1-7/files/winsetup/waitbt/Orig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../عمل ويندوز/WinSetupFromUSB-1-7/files/winsetup/waitbt/Orig" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Lo_ToDo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../MVC-Sample" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../MVP-Sample" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Ship99_Wakeel" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Tracking Period" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../MyApplication" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../WinSetupFromUSB-1-7/files/winsetup/waitbt/Orig" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../عمل ويندوز/WinSetupFromUSB-1-7/files/winsetup/waitbt/Orig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
